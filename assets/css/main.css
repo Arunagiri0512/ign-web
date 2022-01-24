@@ -3224,6 +3224,7 @@ input.main-search-input:-ms-input-placeholder {
   left: auto;
   top: 100px;
   right: -145px;
+  width: 600px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   .about-feature-project .about-img__style-text {
@@ -3238,6 +3239,18 @@ input.main-search-input:-ms-input-placeholder {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .about-feature-project .about-img__style-text {
     right: 0;
+    width: 40px;
+  }
+}
+.img-ign{
+  width: 600px;
+}
+@media (max-width: 991px) {
+  .img-ign{
+    position: relative;
+    align-content: center;
+    margin-left: 10px;
+    width: 370px;
   }
 }
 .about-feature-project .about-img__style-shape {
