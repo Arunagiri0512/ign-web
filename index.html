@@ -28,9 +28,16 @@
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="loader.js">
 </head>
 
 <body>
+    <div id="index-preloader">
+        <div class="index-preloader">
+            <span></span>
+            <span></span>
+        </div>
+    </div>
     <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
@@ -72,14 +79,11 @@
         </a>
       </div>
     <!-- preloader -->
-    <div id="preloader">
-        <div class="preloader">
-            <span></span>
-            <span></span>
-        </div>
-    </div>
+    
+    <!-- <div id="loader"></div> -->
     <!-- preloader end  -->
     <!-- header-area start -->
+    <div id ="content">
     <header id="top-menu" class="transparent-head">        
         <div class="main-header-area">
             <div class="container custom-container">
@@ -664,6 +668,7 @@
             </div>
         </div>
     </footer>
+    </div>
     <!--footer-area end-->
 
 
