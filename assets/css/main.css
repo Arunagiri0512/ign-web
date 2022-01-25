@@ -5386,7 +5386,7 @@ th, td {
 .testimonial-item {
   position: relative;
   z-index: 1;
-  padding: 50px 70px 42px 60px;
+  padding: 50px 70px 0px 0px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .testimonial-item {
@@ -5404,7 +5404,7 @@ th, td {
   clip-path: polygon(0 14%, 100% 0, 100% 100%, 0% 100%);
   background: white;
   width: 100%;
-  height: 316px;
+  height: 100%;
   left: 0;
   bottom: 0;
   z-index: -1;
@@ -5437,7 +5437,6 @@ th, td {
   position: relative;
 }
 .author-img .author-avatar::before {
-  content: '\f10e';
   font-family: 'Font Awesome 5 pro';
   font-size: 15px;
   color: #1a1e2d;
@@ -5449,7 +5448,6 @@ th, td {
   text-align: center;
   line-height: 45px;
   right: 0;
-  bottom: -18px;
   z-index: 1;
 }
 
@@ -5563,6 +5561,9 @@ th, td {
   font-weight: 400;
   letter-spacing: 0;
   line-height: 1.4;
+   margin: 0 auto;
+  margin: 0 auto;
+  text-align: center;
   margin-bottom: 25px;
 }
 
@@ -5576,8 +5577,8 @@ th, td {
   color: #02b663;
   border: 2px solid #666;
   border-radius: 7px;
-  width: 48px;
-  height: 48px;
+  width: 100%;
+  height:100%;
   display: inline-block;
   left: 25px;
   text-align: center;
