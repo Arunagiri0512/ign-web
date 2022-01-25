@@ -5411,17 +5411,17 @@ th, td {
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .testimonial-item::before {
-    height: 355px;
+    height: 955px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .testimonial-item::before {
-    height: 355px;
+    height: 955px;
   }
 }
 @media (max-width: 767px) {
   .testimonial-item::before {
-    height: 370px;
+    height: 1100px;
   }
 }
 .testimonial-item p {
