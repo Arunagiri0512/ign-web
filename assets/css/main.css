@@ -5092,19 +5092,19 @@ ul.timeline li.timeline-list:hover::after {
 }
 
 .club-team {
-  /* box-shadow: 2px 4px 8px #303190; */
-  /* border: 1px solid #0003b3; */
+  /* box-shadow: 2px 4px 8px #424353; */
+  border: 1px solid #e5e5e5;
   padding: 40px 0 40px 0;
   position: relative;
   overflow: hidden;
   left: 50%;
 }
 .club-team-head {
-  /* border: 1px solid #e5e5e5; */
-  
-  padding: 40px 0 40px 0;
+  border: 1px solid #e5e5e5;  
+  padding: 50px 0 40px 0;
   position: relative;
   overflow: hidden;
+  
  /* top: 50%;
  left: 50%; */
 }
